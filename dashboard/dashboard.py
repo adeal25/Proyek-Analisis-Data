@@ -26,7 +26,7 @@ def create_daily_ride_df(df):
     return daily_ride_df
 
 # Load data csv
-all_df = pd.read_csv("https://github.com/adeal25/Proyek-Analisis-Data/blob/main/dashboard/main_data.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/adeal25/Proyek-Analisis-Data/main/dashboard/main_data.csv")
 
 # Mengurutkan dataframe berdasarkan date dan memastikan tipenya datatime
 datetime_columns = ["date"]
